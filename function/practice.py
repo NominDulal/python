@@ -57,10 +57,27 @@
 # Create a function is_leap_year(year) that:
 # Returns True if the year is a leap year, else False.
 # (Hint: A year is a leap year if it's divisible by 4, not divisible by 100 unless divisible by 400.)
-def is_leap_year(year):
-    if year%4==0 and year%100!=0 or year%400==0:
-        return True
+# def is_leap_year(year):
+#     if year%4==0 and year%100!=0 or year%400==0:
+#         return True
+#     else:
+#         return False
+# print(is_leap_year(2018))
+# print(is_leap_year(2016))
+
+# 5. Positive, Negative, or Zero
+# Write a function check_sign(num) that:
+# Prints "Positive" if the number is > 0,
+# "Negative" if < 0,
+# "Zero" if == 0.
+
+def check_sign(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
     else:
-        return False
-print(is_leap_year(2018))
-print(is_leap_year(2016))
+        return "Zero"
+print(check_sign(56))
+print(check_sign(0))
+print(check_sign(-56))
