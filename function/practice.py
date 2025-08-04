@@ -41,14 +41,26 @@
 # Write a function find_max(a, b, c) that:
 # Takes three numbers as arguments.
 # Returns the largest among them using if-else (don’t use max()).
-def find_max(a, b, c):
-    if a>b and a>c:
-        return a
-    elif b>a and b>c:
-        return b
+# def find_max(a, b, c):
+#     if a>b and a>c:
+#         return a
+#     elif b>a and b>c:
+#         return b
+#     else:
+#         return c
+# print(find_max(23,24 ,56 )) 
+# print(find_max(23,-34 ,0 ))   
+# print(find_max(20,20 ,20 ))
+# print(find_max(-1,-10000 ,-56 ))
+
+# 4. Leap Year Checker
+# Create a function is_leap_year(year) that:
+# Returns True if the year is a leap year, else False.
+# (Hint: A year is a leap year if it's divisible by 4, not divisible by 100 unless divisible by 400.)
+def is_leap_year(year):
+    if year%4==0 and year%100!=0 or year%400==0:
+        return True
     else:
-        return c
-print(find_max(23,24 ,56 )) 
-print(find_max(23,-34 ,0 ))   
-print(find_max(20,20 ,20 ))
-print(find_max(-1,-10000 ,-56 ))
+        return False
+print(is_leap_year(2018))
+print(is_leap_year(2016))
