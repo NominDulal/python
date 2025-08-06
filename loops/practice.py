@@ -1,8 +1,7 @@
-
 #Q1. star pattern
 # rows=5
-# for i in range(1,rows+1):
-#     print("*"*i)
+# for i in range(1,rows+1)
+# print("*"*i)
 
 #Q2. opposite star pattern
 # data=5
@@ -91,3 +90,15 @@
 #     print(" " * space + f"{i}"*icount)
 #     icount+=1
 
+# q no.10
+# 1
+# 23
+# 456
+# 78910
+# 1112131415
+# count=1
+# for i in range(1,6):
+#     for j in range(i):
+#         print(count,end="")
+#         count+=1
+#     print()
