@@ -82,52 +82,15 @@
 # # print(check_sign(0))
 # # print(check_sign(-56))
 
-# # Question:
-# # Write a Python program that takes two numbers as input from the user and prints:
-# # Their sum
-# # Their difference
-# # Their product
-# # The result of dividing the first number by the second
-# # The remainder when the first number is divided by the second
-
-# # a=int(input("value of a "))
-# # b=int(input("value of b"))
-# # c=a+b
-# # print(f"The sum of {a} and {b} is {c}")
-# # print(a-b)
-# # print(a*b)
-# # print(a//b)
-# # print(a%b)
-
-
-# # Write a program that takes an integer input from the user. If the number is even, print "The number is even". Otherwise, print "The number is odd".
-
-# # a=int(input("the value of a "))
-# # if a%2==0 :
-# #     print(f"{a} is a even number")
-# # else:
-# #     print(f"{a} is a odd number")
-# # a= int(input("value of a"))
-# # b=int(input("value of b"))
-# # c=int(input("value of c"))
-# # if a> b and a>c:
-# #     print(f"{a} is greatest among them")
-# # elif b>a and b>c:
-# #     print(f"{b} is the greatest among them")
-# # else:
-# #     print(f"{c} is the gratest among them")
-
-# a=int(input("value of a"))
-# if a>0:
-#     print("It's a positive number")
-# elif a<0:
-#     print("It's a negetive number")
-# elif a==0 :
-#     print(" its zero")
-# else:
-# squares = [x*2 for x in range(6)]
-# print(squares)
-nums = [1, 2, 3, 4, 5]
-nums.append(7)
-squared = list(map(lambda x: x+12, nums))
-print("Squares:", squared)
+# Fibonacci
+# def fibonacci(num):
+#     a=0
+#     b=1
+#     print(a)
+#     for i in range(num-1):
+#         c=a+b
+#         a=b
+#         b=c
+#         print(a)
+# # fibonacci(4)
+# fibonacci(6)

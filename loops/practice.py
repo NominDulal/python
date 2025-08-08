@@ -102,3 +102,41 @@
 #         print(count,end="")
 #         count+=1
 #     print()
+
+# q. 121 madam pep 
+
+# def checkPalindrome(data):
+#     count=0
+#     for i in range(len(data)):
+#         if(data[i]==data[len(data)-i-1]):
+#             count+=1
+#     if(count==len(data)):
+#         print(f"{data}is a palindrome")
+#     else:
+#         print(f"{data}is not a palindrome")
+
+    
+
+# checkPalindrome("121")
+# checkPalindrome("madam")
+# checkPalindrome("pep")
+# checkPalindrome("nomin")
+
+# def factorial(num):
+#     result=num
+#     for i in range(1,num):
+#         result=result*i
+#     return result
+
+# factorial(5)
+# factorial(6)
+# factorial(7)
+
+def factorial(num):
+    count=num
+    if(count==1):
+        return 1
+    count-=1
+    return num*factorial(count)
+
+print(factorial(5)) 
